@@ -1,0 +1,4 @@
+# Visual Studio Color Scheme 1.0.0
+
+- First version of colour scheme
+- Supports PHP, HTML/Blade, CSS/SASS/LESS, JavaScript (including Vue components), JSON, YML, Markdown and Python

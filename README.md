@@ -22,24 +22,24 @@ Visual Studio is a colour scheme for Sublime Text 3. It is inspired by the synta
 
 ### PHP
 
-![PHP syntax highlighting](https://raw.githubusercontent.com/vbasky/VisualStudioCode/master/previews/php-dark.png)
-![PHP syntax highlighting](https://raw.githubusercontent.com/vbasky/VisualStudioCode/master/previews/php-light.png)
+![PHP syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/php-dark.png)
+![PHP syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/php-light.png)
 
 ### HTML
 
-![HTML syntax highlighting](https://raw.githubusercontent.com/vbasky/VisualStudioCode/master/previews/html-dark.png)
-![HTML syntax highlighting](https://raw.githubusercontent.com/vbasky/VisualStudioCode/master/previews/html-light.png)
+![HTML syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/html-dark.png)
+![HTML syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/html-light.png)
 
 ### JavaScript/Vue
 
-![JavaScript syntax highlighting](https://raw.githubusercontent.com/vbasky/VisualStudioCode/master/previews/javascript-dark.png)
-![JavaScript syntax highlighting](https://raw.githubusercontent.com/vbasky/VisualStudioCode/master/previews/javascript-light.png)
+![JavaScript syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/javascript-dark.png)
+![JavaScript syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/javascript-light.png)
 
 
 ### Python
 
-![XML syntax highlighting](https://raw.githubusercontent.com/vbasky/VisualStudioCode/master/previews/python-dark.png)
-![XML syntax highlighting](https://raw.githubusercontent.com/vbasky/VisualStudioCode/master/previews/python-light.png)
+![XML syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/python-dark.png)
+![XML syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/python-light.png)
 
 
 

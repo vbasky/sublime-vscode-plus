@@ -7,5 +7,5 @@ I've done my best to cover what I consider to be the common syntaxes for PHP, HT
 If you have any suggestions for improvement, feel free to open an issue or pull request.
 
 Twitter: @vikrambhaskar
-GitHub Repo: https://github.com/vbasky/RaSpring.git
-GitHub Issues: https://github.com/vbasky/RaSpring/issues
+GitHub Repo: https://github.com/vbasky/VisualStudioCode.git
+GitHub Issues: https://github.com/vbasky/VisualStudioCode/issues

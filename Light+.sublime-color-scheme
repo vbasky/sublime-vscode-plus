@@ -1,0 +1,339 @@
+{
+    "name": "Light+",
+    "author": "",
+    "variables":
+    {
+        "black": "hsl(0, 0%, 0%)",
+        "blue": "hsl(218, 61%, 50%)",
+        "blue2": "hsl(211, 95%, 33%)",
+        "blue3": "hsl(204, 100%, 38%)",
+        "blue4": "hsl(233, 100%, 25%)",
+        "blue5": "hsl(194, 60%, 37%)",
+        "blue6": "hsl(240, 100%, 25%)",
+        "blue7": "hsl(240, 100%, 50%)",
+        "blue8": "hsl(210, 12%, 16%)",
+        "cyan": "hsl(158, 87%, 28%)",
+        "cyan2": "hsl(160, 44%, 35%)",
+        "green": "hsl(120, 100%, 25%)",
+        "orange": "hsl(39, 61%, 50%)",
+        "orange2": "hsl(40, 52%, 31%)",
+        "pink": "hsl(300, 100%, 25%)",
+        "purple": "hsl(288, 100%, 43%)",
+        "red": "hsl(0, 53%, 62%)",
+        "red2": "hsl(0, 100%, 25%)",
+        "red3": "hsl(0, 100%, 31%)",
+        "red4": "hsl(0, 77%, 36%)",
+        "red5": "hsl(0, 61%, 50%)",
+        "red6": "hsl(0, 100%, 50%)",
+        "red7": "hsl(340, 61%, 31%)",
+        "white": "hsl(0, 0%, 100%)",
+        "white2": "hsl(0, 0%, 92%)",
+        "yellow": "hsl(83, 100%, 32%)"
+    },
+    "globals":
+    {
+        "foreground": "var(blue8)",
+        "background": "var(white)",
+        "caret": "var(blue8)",
+        "line_highlight": "var(white2)",
+        "selection": "var(white2)"
+    },
+    "rules":
+    [
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(red3)"
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": ""
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "GitGutter untracked",
+            "scope": "markup.untracked.git_gutter",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "GitGutter ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "color(var(black) alpha(0.27))"
+        },
+        {
+            "scope": "meta.embedded, source.groovy.embedded",
+            "foreground": "var(black)"
+        },
+        {
+            "scope": "emphasis",
+            "font_style": "italic"
+        },
+        {
+            "scope": "strong",
+            "font_style": "bold"
+        },
+        {
+            "scope": "meta.diff.header",
+            "foreground": "var(blue6)"
+        },
+        {
+            "scope": "comment",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "constant.language",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "constant.numeric, entity.name.operator.custom-literal.number, variable.other.enummember, keyword.operator.plus.exponent, keyword.operator.minus.exponent",
+            "foreground": "var(cyan)"
+        },
+        {
+            "scope": "constant.regexp",
+            "foreground": "var(red7)"
+        },
+        {
+            "scope": "entity.name.tag",
+            "foreground": "var(red2)"
+        },
+        {
+            "scope": "entity.name.selector",
+            "foreground": "var(red2)"
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(red6)"
+        },
+        {
+            "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.class.mixin.css, entity.other.attribute-name.id.css, entity.other.attribute-name.parent-selector.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, source.css.less entity.other.attribute-name.id, entity.other.attribute-name.attribute.scss, entity.other.attribute-name.scss",
+            "foreground": "var(red2)"
+        },
+        {
+            "scope": "invalid",
+            "foreground": "var(red5)"
+        },
+        {
+            "scope": "markup.underline",
+            "font_style": "underline"
+        },
+        {
+            "scope": "markup.bold",
+            "foreground": "var(blue6)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.heading",
+            "foreground": "var(red2)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.inserted",
+            "foreground": "var(cyan)"
+        },
+        {
+            "scope": "markup.deleted",
+            "foreground": "var(red4)"
+        },
+        {
+            "scope": "markup.changed",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "punctuation.definition.quote.begin.markdown, punctuation.definition.list.begin.markdown",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "markup.inline.raw",
+            "foreground": "var(red2)"
+        },
+        {
+            "scope": "punctuation.definition.tag",
+            "foreground": "var(red2)"
+        },
+        {
+            "scope": "meta.preprocessor, entity.name.function.preprocessor",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "meta.preprocessor.string",
+            "foreground": "var(red4)"
+        },
+        {
+            "scope": "meta.preprocessor.numeric",
+            "foreground": "var(cyan)"
+        },
+        {
+            "scope": "meta.structure.dictionary.key.python",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "storage",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "storage.modifier, keyword.operator.noexcept",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "string, entity.name.operator.custom-literal.string, meta.embedded.assembly",
+            "foreground": "var(red4)"
+        },
+        {
+            "scope": "string.comment.buffered.block.pug, string.quoted.pug, string.interpolated.pug, string.unquoted.plain.in.yaml, string.unquoted.plain.out.yaml, string.unquoted.block.yaml, string.quoted.single.yaml, string.quoted.double.xml, string.quoted.single.xml, string.unquoted.cdata.xml, string.quoted.double.html, string.quoted.single.html, string.unquoted.html, string.quoted.single.handlebars, string.quoted.double.handlebars",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "string.regexp",
+            "foreground": "var(red7)"
+        },
+        {
+            "scope": "punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, punctuation.section.embedded",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "meta.template.expression",
+            "foreground": "var(black)"
+        },
+        {
+            "scope": "support.constant.property-value, support.constant.font-name, support.constant.media-type, support.constant.media, constant.other.color.rgb-value, constant.other.rgb-value, support.constant.color",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded",
+            "foreground": "var(red6)"
+        },
+        {
+            "scope": "support.type.property-name.json",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "keyword",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "keyword.control",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "keyword.operator",
+            "foreground": "var(black)"
+        },
+        {
+            "scope": "keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.alignof, keyword.operator.typeid, keyword.operator.alignas, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.wordlike",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "keyword.other.unit",
+            "foreground": "var(cyan)"
+        },
+        {
+            "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
+            "foreground": "var(red2)"
+        },
+        {
+            "scope": "support.function.git-rebase",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "constant.sha.git-rebase",
+            "foreground": "var(cyan)"
+        },
+        {
+            "scope": "storage.modifier.import.java, variable.language.wildcard.java, storage.modifier.package.java",
+            "foreground": "var(black)"
+        },
+        {
+            "scope": "variable.language",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "entity.name.function, support.function, support.constant.handlebars, source.powershell variable.other.member, entity.name.operator.custom-literal",
+            "foreground": "var(orange2)"
+        },
+        {
+            "scope": "meta.return-type, support.class, support.type, entity.name.type, entity.name.namespace, entity.other.attribute, entity.name.scope-resolution, entity.name.class, storage.type.numeric.go, storage.type.byte.go, storage.type.boolean.go, storage.type.string.go, storage.type.uintptr.go, storage.type.error.go, storage.type.rune.go, storage.type.cs, storage.type.generic.cs, storage.type.modifier.cs, storage.type.variable.cs, storage.type.annotation.java, storage.type.generic.java, storage.type.java, storage.type.object.array.java, storage.type.primitive.array.java, storage.type.primitive.java, storage.type.token.java, storage.type.groovy, storage.type.annotation.groovy, storage.type.parameters.groovy, storage.type.generic.groovy, storage.type.object.array.groovy, storage.type.primitive.array.groovy, storage.type.primitive.groovy",
+            "foreground": "var(blue5)"
+        },
+        {
+            "scope": "meta.type.cast.expr, meta.type.new.expr, support.constant.math, support.constant.dom, support.constant.json, entity.other.inherited-class",
+            "foreground": "var(blue5)"
+        },
+        {
+            "scope": "keyword.control, source.cpp keyword.operator.new, source.cpp keyword.operator.delete, keyword.other.using, keyword.other.operator, entity.name.operator",
+            "foreground": "var(purple)"
+        },
+        {
+            "scope": "variable, meta.definition.variable.name, support.variable, entity.name.variable",
+            "foreground": "var(blue4)"
+        },
+        {
+            "scope": "variable.other.constant, variable.other.enummember",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "scope": "meta.object-literal.key",
+            "foreground": "var(blue4)"
+        },
+        {
+            "scope": "support.constant.property-value, support.constant.font-name, support.constant.media-type, support.constant.media, constant.other.color.rgb-value, constant.other.rgb-value, support.constant.color",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "punctuation.definition.group.regexp, punctuation.definition.group.assertion.regexp, punctuation.definition.character-class.regexp, punctuation.character.set.begin.regexp, punctuation.character.set.end.regexp, keyword.operator.negation.regexp, support.other.parenthesis.regexp",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "constant.character.character-class.regexp, constant.other.character-class.set.regexp, constant.other.character-class.regexp, constant.character.set.regexp",
+            "foreground": "var(red7)"
+        },
+        {
+            "scope": "keyword.operator.quantifier.regexp",
+            "foreground": "var(black)"
+        },
+        {
+            "scope": "keyword.operator.or.regexp, keyword.control.anchor.regexp",
+            "foreground": "var(red6)"
+        },
+        {
+            "scope": "constant.character",
+            "foreground": "var(blue7)"
+        },
+        {
+            "scope": "constant.character.escape",
+            "foreground": "var(red6)"
+        },
+        {
+            "scope": "entity.name.label",
+            "foreground": "var(black)"
+        },
+        {
+            "scope": "token.info-token",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "token.warn-token",
+            "foreground": "var(orange)"
+        },
+        {
+            "scope": "token.error-token",
+            "foreground": "var(red5)"
+        },
+        {
+            "scope": "token.debug-token",
+            "foreground": "var(pink)"
+        }
+    ]
+}

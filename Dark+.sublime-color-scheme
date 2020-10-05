@@ -1,0 +1,342 @@
+{
+    "name": "Dark+",
+    "author": "",
+    "variables":
+    {
+        "black": "hsl(0, 0%, 8%)",
+        "blue": "hsl(218, 72%, 65%)",
+        "blue2": "hsl(207, 61%, 59%)",
+        "blue3": "hsl(240, 100%, 25%)",
+        "blue4": "hsl(201, 98%, 80%)",
+        "blue5": "hsl(238, 20%, 49%)",
+        "cyan": "hsl(168, 53%, 55%)",
+        "green": "hsl(101, 29%, 47%)",
+        "green2": "hsl(99, 28%, 73%)",
+        "grey": "hsl(0, 0%, 50%)",
+        "grey2": "hsl(0, 0%, 30%)",
+        "grey3": "hsl(0, 0%, 83%)",
+        "orange": "hsl(39, 61%, 50%)",
+        "orange2": "hsl(41, 53%, 67%)",
+        "pink": "hsl(305, 35%, 65%)",
+        "purple": "hsl(275, 72%, 65%)",
+        "red": "hsl(0, 89%, 62%)",
+        "red2": "hsl(0, 53%, 62%)",
+        "red3": "hsl(17, 47%, 64%)",
+        "yellow": "hsl(60, 42%, 76%)"
+    },
+    "globals":
+    {
+        "foreground": "var(grey3)",
+        "background": "var(black)",
+        "caret": "var(grey3)",
+        "line_highlight": "var(grey2)",
+        "selection": "var(grey2)"
+    },
+    "rules":
+    [
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": ""
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": ""
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": ""
+        },
+        {
+            "name": "GitGutter untracked",
+            "scope": "markup.untracked.git_gutter",
+            "foreground": ""
+        },
+        {
+            "name": "GitGutter ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": ""
+        },
+        {
+            "scope": "meta.embedded, source.groovy.embedded",
+            "foreground": "var(grey3)"
+        },
+        {
+            "scope": "emphasis",
+            "font_style": "italic"
+        },
+        {
+            "scope": "strong",
+            "font_style": "bold"
+        },
+        {
+            "scope": "header",
+            "foreground": "var(blue3)"
+        },
+        {
+            "scope": "comment",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "constant.language",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "constant.numeric",
+            "foreground": "var(green2)"
+        },
+        {
+            "scope": "constant.regexp",
+            "foreground": "var(blue5)"
+        },
+        {
+            "scope": "entity.name.tag",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "entity.name.tag.css",
+            "foreground": "var(orange2)"
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(blue4)"
+        },
+        {
+            "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.class.mixin.css, entity.other.attribute-name.id.css, entity.other.attribute-name.parent-selector.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, source.css.less entity.other.attribute-name.id, entity.other.attribute-name.attribute.scss, entity.other.attribute-name.scss",
+            "foreground": "var(orange2)"
+        },
+        {
+            "scope": "invalid",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "markup.underline",
+            "font_style": "underline"
+        },
+        {
+            "scope": "markup.bold",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.heading",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.inserted",
+            "foreground": "var(green2)"
+        },
+        {
+            "scope": "markup.deleted",
+            "foreground": "var(red3)"
+        },
+        {
+            "scope": "markup.changed",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "punctuation.definition.quote.begin.markdown",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "punctuation.definition.list.begin.markdown",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "markup.inline.raw",
+            "foreground": "var(red3)"
+        },
+        {
+            "name": "brackets of XML/HTML tags",
+            "scope": "punctuation.definition.tag",
+            "foreground": "var(grey)"
+        },
+        {
+            "scope": "meta.preprocessor",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "meta.preprocessor.string",
+            "foreground": "var(red3)"
+        },
+        {
+            "scope": "meta.preprocessor.numeric",
+            "foreground": "var(green2)"
+        },
+        {
+            "scope": "meta.structure.dictionary.key.python",
+            "foreground": "var(blue4)"
+        },
+        {
+            "scope": "meta.diff.header",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "storage",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "storage.modifier",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "string",
+            "foreground": "var(red3)"
+        },
+        {
+            "scope": "string.tag",
+            "foreground": "var(red3)"
+        },
+        {
+            "scope": "string.value",
+            "foreground": "var(red3)"
+        },
+        {
+            "scope": "string.regexp",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "String interpolation",
+            "scope": "punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, punctuation.section.embedded",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Reset JavaScript string interpolation expression",
+            "scope": "meta.template.expression",
+            "foreground": "var(grey3)"
+        },
+        {
+            "scope": "support.type.vendored.property-name, support.type.property-name, variable.css, variable.scss, variable.other.less, source.coffee.embedded",
+            "foreground": "var(blue4)"
+        },
+        {
+            "scope": "keyword",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "keyword.control",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "keyword.operator",
+            "foreground": "var(grey3)"
+        },
+        {
+            "scope": "keyword.operator.new, keyword.operator.expression, keyword.operator.cast, keyword.operator.sizeof, keyword.operator.instanceof, keyword.operator.logical.python",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "keyword.other.unit",
+            "foreground": "var(green2)"
+        },
+        {
+            "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "support.function.git-rebase",
+            "foreground": "var(blue4)"
+        },
+        {
+            "scope": "constant.sha.git-rebase",
+            "foreground": "var(green2)"
+        },
+        {
+            "name": "coloring of the Java import and package identifiers",
+            "scope": "storage.modifier.import.java, variable.language.wildcard.java, storage.modifier.package.java",
+            "foreground": "var(grey3)"
+        },
+        {
+            "name": "this.self",
+            "scope": "variable.language",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Function declarations",
+            "scope": "entity.name.function, support.function, support.constant.handlebars, source.powershell variable.other.member",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Types declaration and references",
+            "scope": "meta.return-type, support.class, support.type, entity.name.type, entity.name.namespace, entity.name.scope-resolution, entity.name.class, storage.type.numeric.go, storage.type.byte.go, storage.type.boolean.go, storage.type.string.go, storage.type.uintptr.go, storage.type.error.go, storage.type.rune.go, storage.type.cs, storage.type.generic.cs, storage.type.modifier.cs, storage.type.variable.cs, storage.type.annotation.java, storage.type.generic.java, storage.type.java, storage.type.object.array.java, storage.type.primitive.array.java, storage.type.primitive.java, storage.type.token.java, storage.type.groovy, storage.type.annotation.groovy, storage.type.parameters.groovy, storage.type.generic.groovy, storage.type.object.array.groovy, storage.type.primitive.array.groovy, storage.type.primitive.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Types declaration and references, TS grammar specific",
+            "scope": "meta.type.cast.expr, meta.type.new.expr, support.constant.math, support.constant.dom, support.constant.json, entity.other.inherited-class",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Control flow / Special keywords",
+            "scope": "keyword.control, source.cpp keyword.operator.new, keyword.operator.delete, keyword.other.using, keyword.other.operator",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Variable and parameter name",
+            "scope": "variable, meta.definition.variable.name, support.variable, entity.name.variable",
+            "foreground": "var(blue4)"
+        },
+        {
+            "name": "Object keys, TS grammar specific",
+            "scope": "meta.object-literal.key",
+            "foreground": "var(blue4)"
+        },
+        {
+            "name": "CSS property value",
+            "scope": "support.constant.property-value, support.constant.font-name, support.constant.media-type, support.constant.media, constant.other.color.rgb-value, constant.other.rgb-value, support.constant.color",
+            "foreground": "var(red3)"
+        },
+        {
+            "name": "Regular expression groups",
+            "scope": "punctuation.definition.group.regexp, punctuation.definition.group.assertion.regexp, punctuation.definition.character-class.regexp, punctuation.character.set.begin.regexp, punctuation.character.set.end.regexp, keyword.operator.negation.regexp, support.other.parenthesis.regexp",
+            "foreground": "var(red3)"
+        },
+        {
+            "scope": "constant.character.character-class.regexp, constant.other.character-class.set.regexp, constant.other.character-class.regexp, constant.character.set.regexp",
+            "foreground": "var(red2)"
+        },
+        {
+            "scope": "keyword.operator.or.regexp, keyword.control.anchor.regexp",
+            "foreground": "var(yellow)"
+        },
+        {
+            "scope": "keyword.operator.quantifier.regexp",
+            "foreground": "var(orange2)"
+        },
+        {
+            "scope": "constant.character",
+            "foreground": "var(blue2)"
+        },
+        {
+            "scope": "constant.character.escape",
+            "foreground": "var(orange2)"
+        },
+        {
+            "scope": "token.info-token",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "token.warn-token",
+            "foreground": "var(orange)"
+        },
+        {
+            "scope": "token.error-token",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "token.debug-token",
+            "foreground": "var(purple)"
+        }
+    ]
+}

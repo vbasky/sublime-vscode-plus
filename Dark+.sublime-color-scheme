@@ -3,7 +3,7 @@
     "author": "Vikram Bhaskaran",
     "variables":
     {
-        "black": "hsl(0, 0%, 8%)",
+        "black": "hsl(0, 0%, 9%)",
         "blue": "hsl(218, 72%, 65%)",
         "blue2": "hsl(207, 61%, 59%)",
         "blue3": "hsl(240, 100%, 25%)",

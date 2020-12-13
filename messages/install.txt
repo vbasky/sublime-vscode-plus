@@ -8,4 +8,3 @@ If you have any suggestions for improvement, feel free to open an issue or pull 
 
 Twitter: @vikrambhaskar
 GitHub Repo: https://github.com/vbasky/sublime-vscode-plus.git
-GitHub Issues: https://github.com/vbasky/sublime-vscode-plus/issues

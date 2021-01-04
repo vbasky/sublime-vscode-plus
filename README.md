@@ -1,4 +1,4 @@
-# Visual Studio Colour Scheme
+# Visual Studio Code Plus Scheme
 
 Visual Studio is a colour scheme for Sublime Text 3. It is inspired by the syntax highlighting found in the default installation of VSCode
 
@@ -35,13 +35,10 @@ Visual Studio is a colour scheme for Sublime Text 3. It is inspired by the synta
 ![JavaScript syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/javascript-dark.png)
 ![JavaScript syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/javascript-light.png)
 
-
 ### Python
 
 ![XML syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/python-dark.png)
 ![XML syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/python-light.png)
-
-
 
 ## Supported languages
 

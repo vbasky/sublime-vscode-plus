@@ -1,0 +1,7 @@
+# Visual Studio Code Plus Scheme 1.1.0
+
+- Added C/C++/C# aggregate-type support (struct, union and enum scopes now use the VS Code type colour)
+- Rewrote the README with a full colour-scheme switching guide (picker, settings, and OS-synced auto light/dark)
+- Added customization instructions (UI: Customize Color Scheme) so tweaks survive updates
+- Documented complete language coverage and how to report a mis-coloured token (Show Scope Name)
+- Fixed installation docs that referenced the old .tmTheme files

@@ -1,22 +1,23 @@
 # Visual Studio Code Plus Scheme
 
-Visual Studio is a colour scheme for Sublime Text 3. It is inspired by the syntax highlighting found in the default installation of VSCode
+Visual Studio Code Plus is a colour scheme for Sublime Text 3 & 4, inspired by the syntax highlighting found in the default installation of VS Code.
+
+It ships two schemes, which appear in Sublime's *Select Color Scheme* picker as **Dark+** and **Light+**.
 
 ## Installation
 
 ### Package Control
 
-1. Open the Command Pallette (<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on OSX, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows/Linux) and choose *Install Package*
-2. Choose *Visual Studio Colour Scheme* from the list
-3. Select *Visual Studio Colour Scheme* from *UI: Select Color Scheme* from the Command Pallette
+1. Open the Command Palette (<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on macOS, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows/Linux) and choose *Install Package*.
+2. Choose *Visual Studio Code Plus* from the list.
+3. Open *UI: Select Color Scheme* from the Command Palette and pick **Dark+** or **Light+**.
 
 ### Manual
 
-1. Download the `Dark+.tmTheme` file from GitHub
-   Download the `Light+.tmTheme` file from GitHub
-2. In Sublime Text, open the Command Pallette (<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on OSX, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows/Linux) and choose *Browse Packages*.
-3. Place the `Dark+.tmTheme & Light+.tmTheme` file into the `User` directory.
-4. Select *Dark+* or *Light+* from *UI: Select Color Scheme* from the Command Pallette
+1. Download `Dark+.sublime-color-scheme` and `Light+.sublime-color-scheme` from GitHub.
+2. In Sublime Text, open the Command Palette and choose *Browse Packages*.
+3. Place both files into the `User` directory.
+4. Open *UI: Select Color Scheme* from the Command Palette and pick **Dark+** or **Light+**.
 
 ## Screenshots
 
@@ -37,12 +38,12 @@ Visual Studio is a colour scheme for Sublime Text 3. It is inspired by the synta
 
 ### Python
 
-![XML syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/python-dark.png)
-![XML syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/python-light.png)
+![Python syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/python-dark.png)
+![Python syntax highlighting](https://raw.githubusercontent.com/vbasky/sublime-vscode-plus/master/previews/python-light.png)
 
 ## Supported languages
 
-This colour scheme ought to work with any language in Sublime Text, it has been specifically built and tested against such as
+This colour scheme ought to work with any language in Sublime Text. It has been specifically built and tested against:
 
 * PHP
 * MySQL
